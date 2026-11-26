@@ -47,7 +47,7 @@ ax.bar(
     x2,
     rej_vals,
     width=0.5,
-    bottom=[i + u for i, u in zip(ins_vals, unch_vals)],
+    bottom=[i + u for i, u in zip(ins_vals, unch_vals, strict=True)],
     label="Rejected",
     color=RED,
 )

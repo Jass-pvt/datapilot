@@ -37,7 +37,7 @@ ax.set_yticklabels(suites)
 ax.set_xlabel("Passed Test Count (Total = 134)")
 ax.set_title("Pytest Coverage Across Unit, Integration & Security Suites")
 ax.set_xlim(0, 27)
-for y, c in zip(y_pos, counts):
+for y, c in zip(y_pos, counts, strict=True):
     ax.text(c + 0.4, y, str(c), va="center", fontsize=8.5)
 fig.tight_layout()
 fig.savefig("artifacts/test_suite_breakdown.png")
@@ -63,7 +63,7 @@ ax.set_title(f"Ingested Books by Publication Decade (Total = {len(years)} Books)
 ax.set_xlabel("Decade")
 ax.set_ylabel("Number of Books")
 ax.set_ylim(0, max(vals) + 4)
-for bar, v in zip(bars, vals):
+for bar, v in zip(bars, vals, strict=True):
     ax.text(bar.get_x() + bar.get_width() / 2, v + 0.6, str(v), ha="center", fontsize=9)
 fig.tight_layout()
 fig.savefig("artifacts/books_by_decade.png")

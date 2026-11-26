@@ -1,0 +1,56 @@
+{
+  "students": [
+    {
+      "name": "Alice Johnson",
+      "score": 92
+    },
+    {
+      "name": "Bob Smith",
+      "score": 78
+    },
+    {
+      "name": "Carla Gomez",
+      "score": 85.5
+    },
+    {
+      "name": "Deepak Rao",
+      "score": 64
+    },
+    {
+      "name": "Elena Petrova",
+      "score": 78
+    },
+    {
+      "name": "Farhan Ali",
+      "score": 99
+    },
+    {
+      "name": "Grace Lee",
+      "score": 71
+    },
+    {
+      "name": "Hiro Tanaka",
+      "score": 88
+    },
+    {
+      "name": "alice johnson",
+      "score": 55
+    },
+    {
+      "name": "Ivan Cruz",
+      "score": 150
+    },
+    {
+      "name": "Jade Wong",
+      "score": null
+    },
+    {
+      "name": "  ",
+      "score": 70
+    },
+    {
+      "name": "Kofi Mensah",
+      "score": "85"
+    }
+  ]
+}

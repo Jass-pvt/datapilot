@@ -1,0 +1,12 @@
+name,email
+Alice Johnson,alice@example.com
+  Bob   Smith  ,  BOB@Example.com
+Carla Gomez,carla@example.com
+Deepak Rao,deepak@example
+Elena Petrova,elena@example.com
+Alice Again,ALICE@example.com
+,nobody@example.com
+Robert'); DROP TABLE users;--,robert@example.com
+=HYPERLINK("http://example.invalid"),formula@example.com
+José Álvarez,jose@example.com
+Anne-Marie O'Neil,anne@example.com

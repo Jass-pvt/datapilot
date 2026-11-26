@@ -1,5 +1,6 @@
 import sqlite3
 from pathlib import Path
+
 import matplotlib.pyplot as plt
 
 Path("artifacts").mkdir(exist_ok=True)
